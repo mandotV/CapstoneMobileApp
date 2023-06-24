@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    tools:context=".card_details2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/detail_image"
+            android:elevation="20dp"
+            android:src="@drawable/logo"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/to_FavouriteVet"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="120dp"
+                android:background="@drawable/ic_baseline_favorite_border_24"
+                android:elevation="10dp"
+                 />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/to_Message"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/msgs" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/to_Services"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_baseline_local_offer_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textStyle="italic"
+            android:text="Business Name"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Vet Clinic Name"
+            android:textSize="18sp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textStyle="italic"
+            android:text="Email"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/detail_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Email"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textStyle="italic"
+            android:text="Address"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/detail_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Address"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textStyle="italic"
+            android:text="Ratings"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ratings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="0.0"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/addRate"
+                android:layout_marginTop="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/gray"
+                android:text="Rate Us"
+                android:src="@drawable/ratesofstar"
+                android:clickable="true"
+                android:elevation="30dp"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Revs"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/gray"
+                android:text="See pets"
+                android:src="@drawable/feedback"
+                android:clickable="true"
+                android:elevation="30dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Pets"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/gray"
+                android:text="See pets"
+                android:src="@drawable/listofpets"
+                android:clickable="true"
+                android:elevation="30dp"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Vets"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/gray"
+            android:text="See pets"
+            android:src="@drawable/veter"
+            android:clickable="true"
+            android:elevation="30dp"
+            />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

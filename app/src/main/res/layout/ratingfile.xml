@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+        <RatingBar
+            android:id="@+id/rates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY=".8"
+            android:scaleX=".9"
+            android:numStars="5"
+            android:isIndicator="false"
+            android:saveEnabled="true"
+            android:progressTint="@color/yellow"
+            />
+
+        <EditText
+            android:id="@+id/edt_reviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Send Reviews"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

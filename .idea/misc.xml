@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/drawable-v24/bookmark_selector.xml" value="0.1685" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/drawable-v24/ic_baseline_bookmark_24.xml" value="0.1685" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/drawable/select_nav.xml" value="0.1685" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_card_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_card_details2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_editprofile.xml" value="0.22" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_email_verify.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_favourites.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_forgot_pass.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_map.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_msg.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_petstore.xml" value="0.203125" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_profile.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_sign_up.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/activity_vetclinic.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/item_fave.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/item_petstore.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/layout/item_vetclinic.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/menu/home_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usmand Decampong/AndroidStudioProjects/MyMobileApp/app/src/main/res/mipmap-xxxhdpi/newlogopetik.xml" value="0.165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

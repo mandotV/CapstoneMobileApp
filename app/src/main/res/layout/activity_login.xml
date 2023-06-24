@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white2"
+    tools:context=".Login">
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            app:civ_border_width=".5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PETik, Happy pet happy life"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/orange"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/plEmail"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <EditText
+            android:id="@+id/plPassword"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:inputType="textPassword"
+            android:password="true"
+            />
+            <ImageButton
+                android:id="@+id/btnEye"
+                android:layout_marginTop="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_remove_red_eye_24"
+                android:layout_toRightOf="@+id/plPassword"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:id="@+id/txt_forgot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/orange"
+                android:layout_marginLeft="50dp"
+                />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/skyblue"
+                android:text="Log in" />
+
+            <TextView
+                android:id="@+id/txt_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register Here"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/orange"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

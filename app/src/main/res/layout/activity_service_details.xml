@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    tools:context=".serviceDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="20dp"
+            android:src="@drawable/appointment"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/service_image"
+            android:elevation="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+            <Button
+                android:id="@+id/to_FavoriteServ"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_baseline_bookmark_border_24"
+                android:elevation="10dp"
+                />
+            <Button
+                android:id="@+id/btn_appoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:textStyle="italic"
+                android:textSize="11dp"
+                android:text="Book Service"
+                />
+
+            <!--
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:text="Cancel"
+                />
+                -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textStyle="italic"
+                android:text="Category"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/service_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Category"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textStyle="italic"
+                android:text="Description"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/service_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Desc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textStyle="italic"
+                android:text="Name"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/service_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Name"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textStyle="italic"
+                android:text="Price"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/service_Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Price"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Veterinarian"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/service_Vet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Vet"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                />
+            <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textStyle="italic"
+                android:text="Date"
+                android:textSize="15sp" />
+                -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <ImageButton
+                android:id="@+id/addPicker"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_calendar_month_24"
+                android:backgroundTint="@color/white"
+                />
+            <TextView
+                android:id="@+id/addDateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Date"
+                />
+            </LinearLayout>
+
+            <!--
+            <TextView
+                android:id="@+id/addedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="00-00-00"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                />
+                -->
+            <!---
+            <Button
+                android:id="@+id/setDateCompare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set date"
+                />
+                -->
+            <!--
+            <Spinner
+                android:id="@+id/addDayOfWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+                -->
+            <!---
+            <Spinner
+                android:id="@+id/addDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+                -->
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

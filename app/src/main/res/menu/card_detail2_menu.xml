@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/to_Message"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Message"
+        android:iconTint="@color/teal_200"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/to_FavouriteVet"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="Add Favorites"
+        android:iconTint="@color/teal_200"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/serviceDetails"
+        android:enabled="true"
+        android:icon="@drawable/appointment"
+        android:title="Services"
+        android:iconTint="@color/teal_200"
+        app:showAsAction="ifRoom" />
+
+</menu>
